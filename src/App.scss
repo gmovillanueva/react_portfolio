@@ -1,0 +1,57 @@
+// Setup
+$fonts-path: './assets/fonts';
+$primary-color: #ffd700;
+
+// Imports
+@import 'animate.css';
+
+
+// Normal Fonts
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url($fonts-path + '/JetBrainsMono/JetBrainsMono-ExtraLight.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url($fonts-path + '/JetBrainsMono/JetBrainsMono-Regular.ttf') format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url($fonts-path + '/JetBrainsMono/JetBrainsMono-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+// Italic Fonts
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url($fonts-path + '/JetBrainsMono/JetBrainsMono-ExtraLightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url($fonts-path + '/JetBrainsMono/JetBrainsMono-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url($fonts-path + '/JetBrainsMono/JetBrainsMono-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+// Font Type Setup
+input,
+textarea {
+  font-family: 'JetBrains Mono', monospace;
+}
